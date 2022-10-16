@@ -55,10 +55,12 @@
 a = int(input())
 b = int(input())
 c = int(input())
-if c < (a+b) and c**2 == a**2+b**2:
-  print("Trójkąt prostokątny")
-else:
-  print("Nie")
-
-
-
+if a<(b+c) and a>(b-c) and b<(a+c) and b>(a-c) and c<(a+b) and c>(a-b):
+ elif c**2 == a**2 + b**2:
+  print ("Trójkąt prostokątny")
+ elif c**2 > a**2 + b**2:
+    print("Trójkąt rozwartokątny")
+ elif c**2 < a**2 + b**2:
+  print("Trójkąt ostrokątny")
+ else:
+  print("nie da się stworzyć żadnego trójkąta")
