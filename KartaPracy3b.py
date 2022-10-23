@@ -12,15 +12,16 @@
 #     print(i, end=" ")
 
 #Zad4
-for i in range(100,1000):
-  if (i/5 or i/6 or i/11):
-    print(i, end=" ")
+# for i in range(100,1000,5):
+#   print("podzielna przez 5")
+#   print(i, end=" ")
+# for y in range(102,1000,6):
+#   print("podzielna przez 6")
+#   print(y, end=" ")
+# for x in range(110,1000,11):
+#   print("podzielna przez 11")
+#   print(x, end=" ")
+
+#Zad5
+
   
-
-
-
-
-
-
-
-
