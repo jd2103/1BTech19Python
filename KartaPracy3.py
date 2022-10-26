@@ -21,9 +21,19 @@
 #   print(suma)
 
 #Zad5
-n = int(input())
-for i in range(n-1):
-  k = int(input())
+# n = int(input("W ile gramy?"))
+# suma = n * (n+1) //2
+# for i in range(n-1):
+#   k = int(input())
+#   suma = suma - k
+# print("Brakuje:", suma)
+
+#napisz pętle sumującą liczby dwucyfrowe parzyste
+suma = 0
+for i in range(10,100,2):
+  suma = suma + i
+print(suma)
+
   
 
 
