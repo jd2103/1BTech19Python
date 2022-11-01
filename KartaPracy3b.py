@@ -23,5 +23,28 @@
 #   print(x, end=" ")
 
 #Zad5
+# n = int(input("Ile liczb chcesz wpisać?"))
+# suma=0
+# for i in range(n):
+#   k = int(input())
+#   suma=suma+k
+# print(suma)
 
+#Zad6
+# k = int(input())
+# a = 0
+# for i in range(0,2 * k,2):
+#         a= a+i
+# print("Suma początkowych liczb parzystych wynosi:")
+# print(a)
+
+#Zad7
+# m = int(input())
+# a = 0
+# for i in range(10,3 * 2*m,3):
+#         a=a+i
+# print("Suma początkowych liczb dwucyfrowych nieparzystych wynosi:")
+# print(a)
+
+#Zad8
   
