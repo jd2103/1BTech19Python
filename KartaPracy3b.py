@@ -41,10 +41,40 @@
 #Zad7
 # m = int(input())
 # a = 0
-# for i in range(10,3 * 2*m,3):
+# for i in range(11,(m*2)+11,+2):
 #         a=a+i
 # print("Suma początkowych liczb dwucyfrowych nieparzystych wynosi:")
 # print(a)
 
 #Zad8
-  
+# W0 = int(input("Podaj początkową wartość inwestycji:"))
+# L = int(input("Podaj lata inwestycji:"))
+# Wk = 0
+# suma = Wk
+# for i in range(0,L * 12):
+#     Wk = suma * 0.06 * (1/12)
+#     suma =  suma+Wk
+# print("Końcowa wartość inweestycji wynosi:")
+# print(suma)
+
+#Zad9
+# n = int(input("Podaj ilość liczb:"))
+# a = 21
+# suma = 0
+# for i in range(0,n+1):
+#     for j in range(0,i,a):
+#         print(a)
+#         suma = suma+a
+#         a = a+100
+# print("Suma tych liczb wynosi:")
+# print(suma)
+
+#Zad10
+# from cmath import sqrt
+# for i in range(1,1000):
+#     if i % 10 == sqrt(i):
+#         print(i)
+#     elif i % 100 == sqrt(i):
+#           print(i)
+
+
