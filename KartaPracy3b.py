@@ -33,8 +33,8 @@
 #Zad6
 # k = int(input())
 # a = 0
-# for i in range(0,2 * k,2):
-#         a= a+i
+# for i in range(2,k+1,2):
+#    a=a+i
 # print("Suma początkowych liczb parzystych wynosi:")
 # print(a)
 
