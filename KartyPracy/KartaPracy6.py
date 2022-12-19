@@ -44,10 +44,10 @@
 # print(ilosc)
 
 #Zadanie 5
-ilosc=0
-for i in range(10,100):
-    cs=i//100
-    cd=(i//10)%10
-    cj=i%10
+# ilosc=0
+# for i in range(10,100):
+#     cs=i//100
+#     cd=(i//10)%10
+#     cj=i%10
     
-print(ilosc)
+# print(ilosc)
