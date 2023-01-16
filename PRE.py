@@ -25,4 +25,20 @@
 #Zad5
 # for i in range(100,1000,20):
 #   print(i, end=" ")
+# suma dwucyfrowych
+# suma=0
+# for i in range(10,100):
+#   suma+=i
+# print(suma)
+
+# k=int(input("ile chcesz liczb? "))
+# suma=0
+# for i in range(k):
+#   x=int(input())
+#   suma+=x
+# print(suma)
+
+
+
+
 
