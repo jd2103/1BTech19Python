@@ -1,3 +1,4 @@
+
 # //Wygeneruj tablicę n losowych liczb:
 from random import randint
 L = [randint(1,21) for i in range(20)]
