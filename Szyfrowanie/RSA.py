@@ -31,10 +31,10 @@ print(d,n)
 
 m=input()
 for i in m:
-    cipher += chr((ord(i)**e) % n)
-print(cipher)
+    cypher += chr((ord(i)**e) % n)
+print(cypher)
 
 tekst=""
-for j in cipher:
+for j in cypher:
   tekst += (chr((ord(j)**d) % n))
 print(tekst)
