@@ -22,11 +22,11 @@
 # print(s,L)
 
 #sprawdź czy napis jest palindromem
-s=input()
-L=list(s)
-R=list(s)
-L.reverse()
-if L==R:
-  print("TAK")
-else:
-  print("NIE")
+# s=input()
+# L=list(s)
+# R=list(s)
+# L.reverse()
+# if L==R:
+#   print("TAK")
+# else:
+#   print("NIE")
