@@ -27,9 +27,49 @@
 # print(s[len(s)-1:len(s)-5:-1])
 
 #4. Waga napisu to suma kodów ascii
-c=input()
-suma=0
-for i in c:
-  suma+=ord(i)
-print(suma)
+# c=input()
+# suma=0
+# for i in c:
+#   suma+=ord(i)
+# print(suma)
 
+# 5. Policz ile we wpisanym napisie jest liter A.
+# e=input()
+# ilosc=0
+# for x in e:
+#   if x=="A":
+#       ilosc+=1
+# print(ilosc)
+  
+# 6. Podaj dominującą literkę we wpisanym napisie. Niech to będzie tylko jedna literka.
+# g=input()
+# maks=0
+# for x in g:
+#   if g.count(x)>maks:
+#       maks=g.count(x)
+#       literka=x
+# print(literka, maks)
+
+
+
+
+# 7. Znajdź literkę-dominantę w napisie (może ich być kilka, a może nie być żadnej)
+
+# 8. Sprawdź czy w napisie występują trzy podciągi "LA"
+h=input()
+ilosc=0
+for i in range(len(h)-1):
+  if h[i:i+2]=="LA":
+      ilosc+=1
+if ilosc ==3:
+  print("TAK")
+else:
+  print("NIE")
+
+
+# 9. Znajdź "średnią literkę" w napisie. (Przejdź na kody ASCII i jeśli wynik będzie
+# ułamkowy to zaokrąglij średnią w dół)
+
+# 10. Wypisz literki, których nie ma w napisie
+
+# 11. Znajdź ilość trzyznakowych palindromów w napisie (trzy literki koło siebie)
