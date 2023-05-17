@@ -1,11 +1,11 @@
 
 # //Wygeneruj tablicę n losowych liczb:
-from random import randint
-L = [randint(1,21) for i in range(20)]
-print(L)
-print(max(L))
-print(min(L))
-print(L.count(max(L)))
+# from random import randint
+# L = [randint(1,21) for i in range(20)]
+# print(L)
+# print(max(L))
+# print(min(L))
+# print(L.count(max(L)))
 # 1. Znajdź największą liczbę w tablicy
 # 2. Znajdź najmniejszą liczbę w tablicy
 # 3. Podaj ile razy występuje najwieksza liczba w tablicy
