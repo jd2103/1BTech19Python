@@ -3,7 +3,6 @@
 # suma=0
 # for i in range(100,1000):
 #   suma+=i
-#   wynik=suma
 # print(suma)
 # 2. Oblicz sume i ilość dwucyfrowych wielokrotności liczby 6
 # suma=0
@@ -28,8 +27,11 @@
 # print(suma)
 # 5. Znajdź najmniejszą cyfre we wpisanej przez usera liczbie 3-cyfrowej
 # s=int(input())
-# L=list(str(s))
-# print(min(L))
+# if s>1000 or s<100:
+#   print("nie pasi")
+# else:
+#   L=list(str(s))
+#   print(min(L))
 
 #   ALGORYTMY
 # 1. Sprawdź czy wpisana przez usera liczba jest pierwsza
